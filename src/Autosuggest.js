@@ -558,6 +558,7 @@ export default class Autosuggest extends Component {
           !this.justClickedOnSuggestionsContainer
         ) {
           const shouldRender = shouldRenderSuggestions(value);
+
           this.setState({
             isFocused: true,
             isCollapsed: !shouldRender
